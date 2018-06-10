@@ -1,7 +1,11 @@
 com/glenn/crawler/entity/BaseResult.class
 com/glenn/util/FileUtil.class
 com/glenn/util/LogUtil.class
-com/glenn/crawler/driver/BaseCrawler.class
+com/glenn/crawler/basedriver/BaseCrawler.class
+com/glenn/crawler/neteasedriver/SortClickMainCrawler.class
+com/glenn/crawler/basedriver/RawCrawler.class
 com/glenn/util/LogUtil$LEVEL.class
 com/glenn/util/DateUtil.class
+com/glenn/crawler/neteasedriver/MainCrawler.class
 com/glenn/util/HttpUtil.class
+com/glenn/crawler/entity/NeteaseNewsResult.class
