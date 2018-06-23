@@ -1,6 +1,5 @@
 package com.glenn.crawler.basedriver;
 
-import com.glenn.crawler.entity.BaseResult;
 import com.glenn.util.HttpUtil;
 import com.glenn.util.LogUtil;
 import org.jsoup.Jsoup;
@@ -11,9 +10,9 @@ import java.util.HashMap;
 
 public abstract class RawCrawler {
 
-    public abstract void crawl(String url, String saveRoot);
+    public abstract void crawl(String url);
 
-    public abstract void crawl(String url, String saveRoot, String charset);
+    public abstract void crawl(String url, String charset);
 
 
     public Document getDocumentFromUrl(String url, String charset) {

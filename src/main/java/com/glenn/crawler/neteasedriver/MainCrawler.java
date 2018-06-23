@@ -1,12 +1,16 @@
 package com.glenn.crawler.neteasedriver;
 
+import com.glenn.action.NewsActionImpl;
 import com.glenn.crawler.basedriver.RawCrawler;
-import com.glenn.crawler.entity.NeteaseNewsResult;
+import com.glenn.entity.NewsEntity;
+import com.glenn.service.NewsServiceImpl;
 import com.glenn.util.DateUtil;
-import com.glenn.util.FileUtil;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
+import org.springframework.beans.factory.BeanFactory;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import java.io.FileWriter;
 import java.util.ArrayList;
@@ -18,28 +22,82 @@ public class MainCrawler extends RawCrawler {
     public final static String rootUrl = "http://news.163.com/";
 
     @Override
-    public void crawl(String url, String saveRoot) {
-        crawl(url, saveRoot, "utf-8");
+    public void crawl(String url) {
+        crawl(url, "gbk");
     }
 
     @Override
-    public void crawl(String url, String saveRoot, String charset) {
+    public void crawl(String url, String charset) {
+        int addTime = Integer.valueOf(DateUtil.today().replaceAll("-", ""));
+
         Document mainHtml = getDocumentFromUrl(url, charset);
-        HashMap<String, String> categoryInfoMap = parseCategoryDocumentInfo(mainHtml);
-        for (HashMap.Entry<String, String> categoryEntry : categoryInfoMap.entrySet()) {
-            HashSet<String> categoryContentUrls = getCategoryContent(categoryEntry, charset, 1000);
-            saveResult(categoryContentUrls, charset, saveRoot);
+        HashMap<String, String> categoryInfoMap;
+        try {
+            categoryInfoMap = parseCategoryDocumentInfo(mainHtml);
+        } catch (Exception ex) {
+            categoryInfoMap = getCategoryDocumentInfo();
         }
+
+        for (HashMap.Entry<String, String> categoryEntry : categoryInfoMap.entrySet()) {
+            try {
+                System.out.println(categoryEntry.getKey() + " ==> " + categoryEntry.getValue());
+                CategoryCrawler categoryCrawler = new CategoryCrawler();
+                ArrayList<NewsEntity> newsList = categoryCrawler.run(categoryEntry.getValue());
+                saveResult(newsList, addTime);
+            } catch (Exception e) {
+                System.out.println("error => " + e.getMessage());
+            }
+        }
+    }
+
+    public HashMap<String, String> getCategoryDocumentInfo() {
+        HashMap<String, String> result = new HashMap<>();
+        result.put("新闻", "http://news.163.com");
+        result.put("体育", "http://sports.163.com");
+        result.put("NBA", "http://sports.163.com/nba/");
+        result.put("娱乐", "http://ent.163.com");
+        result.put("财经", "http://money.163.com");
+        result.put("股票", "http://money.163.com/stock/");
+        result.put("汽车", "http://auto.163.com");
+        result.put("科技", "http://tech.163.com");
+        result.put("手机", "http://mobile.163.com");
+        result.put("数码", "http://digi.163.com");
+        result.put("女人", "http://lady.163.com");
+        result.put("旅游", "http://travel.163.com");
+        result.put("房产", "http://house.163.com");
+        result.put("家居", "http://home.163.com");
+        result.put("教育", "http://edu.163.com");
+        result.put("读书", "http://book.163.com");
+        result.put("健康", "http://jiankang.163.com");
+        result.put("彩票", "http://caipiao.163.com/#from=dh");
+        result.put("车险", "http://baoxian.163.com/?from=dh");
+        result.put("海淘", "http://rd.da.netease.com/redirect?t=5802fb18cf033c80&amp;p=e17af55c&amp;proId=1024&amp;target=https%3A%2F%2Fwww.kaola.com%2F%3Ftag%3Dbe3d8d027a530881037ef01d304eb505");
+        result.put("理财", "https://www.lmlc.com/web/activity/bind_index.html?from=tgn163dh2");
+        result.put("艺术", "http://art.163.com");
+        return result;
     }
 
 
     public HashMap<String, String> parseCategoryDocumentInfo(Document html) {
         HashMap<String, String> result = new HashMap<>();
-        Elements categoryInfos = html.getElementsByClass("N-nav-channel JS_NTES_LOG_FE").first().children().select("a");
+        Elements categoryInfos = null;
+        int tryNum = 3;
+
+        do {
+            try {
+                categoryInfos = html.select("div.N-nav-channel").select(".JS_NTES_LOG_FE").first().children().tagName("a");
+                Thread.currentThread().sleep(1000);
+            } catch (Exception e) {
+                tryNum++;
+            }
+        } while (categoryInfos == null && tryNum < 3);
+
+
         for (Element categoryInfo : categoryInfos) {
             String url = categoryInfo.attr("href");
             String name = categoryInfo.text();
-            if (name.contains("图集") || name.contains("新闻") || name.contains("全") || name.contains("视频") || name.contains("直播")) {
+            if (name.contains("图集") || name.contains("全") ||
+                    name.contains("视频") || name.contains("直播") || name.contains("本地")) {
                 continue;
             }
             result.put(name, url);
@@ -52,69 +110,21 @@ public class MainCrawler extends RawCrawler {
         return null;
     }
 
-    public HashSet<String> getCategoryContent(HashMap.Entry<String, String> entry, String charset, int num) {
-        HashSet<String> result = new HashSet<>();
-        Document categoryMainHtml = getDocumentFromUrl(entry.getValue(), charset);
+    public void saveResult(ArrayList<NewsEntity> result, int addTime) {
+        ApplicationContext context = new ClassPathXmlApplicationContext(new String[] {"./applicationContext.xml"});
+        BeanFactory factory = (BeanFactory) context;
+        NewsServiceImpl newsService = (NewsServiceImpl) factory.getBean("newsService");
 
-        int artitleNum = categoryMainHtml.getElementsByClass("ndi_main").first().children().select("data_row news_article clearfix ").size();
-        while (artitleNum < num) {
-
-            artitleNum = categoryMainHtml.getElementsByClass("ndi_main").first().children().select("data_row news_article clearfix ").size();
-        }
-
-        Elements articlesElements = categoryMainHtml.getElementsByClass("ndi_main").first().children().select("data_row news_article clearfix ");
-        for (Element element : articlesElements) {
-            result.add(element.children().select("a").first().attr("href"));
-        }
-
-        return result;
-    }
-
-    public ArrayList<String> getContentUrls(Document html, String charset) {
-        ArrayList<String> result = new ArrayList<>();
-
-
-        return result;
-    }
-
-    public void saveResult(HashSet<String> urls, String charset, String saveRoot) {
-        for (String url : urls) {
-            Document html = getDocumentFromUrl(url, charset);
-            Elements classElements = html.getElementsByClass("post_crumb");
-            if (classElements.isEmpty()) continue;
-            classElements = classElements.first().children().select("a");
-            if (classElements.size() < 3) continue;
-            String className = classElements.get(1).text();
-
-            Elements titleElements = html.getElementsByClass("post_content_main");
-            if (titleElements.isEmpty()) continue;
-            titleElements = titleElements.first().children().select("h1");
-            if (titleElements.isEmpty()) continue;
-            String title = titleElements.first().text();
-
-            Elements contentElements = html.getElementsByClass("post_text");
-            if (contentElements.isEmpty()) continue;
-            contentElements = contentElements.first().children().select("p");
-            String content = "";
-            for (Element contentElement : contentElements) {
-                content += contentElement.text() + "\n";
-            }
-
-            NeteaseNewsResult result = new NeteaseNewsResult();
-            result.setCategory(className);
-            result.setTitle(title);
-            result.setContent(content);
-            result.setUrl(url);
-
-            saveResult(result, saveRoot);
+        for (NewsEntity news : result) {
+            news.setDs(addTime);
+            newsService.addOrUpdate(news);
         }
     }
 
-    public void saveResult(NeteaseNewsResult result, String saveRoot) {
-        String subRoot = saveRoot + "/" + result.getUrl();
-        FileUtil.createIfNotExist(subRoot);
-        String file = subRoot + "/" + DateUtil.now().split(" ")[0] + ".txt";
-        FileUtil.appendFile(file, result.toString());
+
+    public static void main(String[] args) {
+        MainCrawler crawler = new MainCrawler();
+        crawler.crawl(MainCrawler.rootUrl);
     }
 
 }

@@ -6,10 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="GCrawler" />
+        <module name="glenn.gcrawler" />
         <module name="MavenWebDemo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="GCrawler" target="1.8" />
+      <module name="glenn.gcrawler" target="1.8" />
       <module name="MavenWebDemo" target="1.7" />
     </bytecodeTargetLevel>
   </component>

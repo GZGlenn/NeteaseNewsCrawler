@@ -6,7 +6,155 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a326f66-efbf-472f-9f20-09b85f83ea4e" name="Default" comment="" />
+    <list default="true" id="9a326f66-efbf-472f-9f20-09b85f83ea4e" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/GCrawler_jar.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/GCrawler_war.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/glenn.gcrawler.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/glenn/action/NewsAction.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/glenn/action/NewsActionImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/glenn/dao/NewsDao.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/glenn/dao/NewsDaoImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/glenn/entity/NewsEntity.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/glenn/entity/NewsEntityPK.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/glenn/main/CrawlMainDriver.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/glenn/service/NewsService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/glenn/service/NewsServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/glenn/test/TestAction.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/glenn/test/TestService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/NewsEntity.hbm.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/db.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/META-INF/MANIFEST.MF" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/MavenWebDemo_war.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/MavenWebDemo_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/GCrawler_war_exploded.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/MavenWebDemo.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/chromedriver" afterPath="$PROJECT_DIR$/src/main/resources/chromedriver" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MavenWebDemo_war_exploded/META-INF/MANIFEST.MF" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/glenn/crawler/basedriver/BaseCrawler.java" afterPath="$PROJECT_DIR$/src/main/java/com/glenn/crawler/basedriver/BaseCrawler.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/glenn/crawler/basedriver/RawCrawler.java" afterPath="$PROJECT_DIR$/src/main/java/com/glenn/crawler/basedriver/RawCrawler.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/glenn/crawler/entity/BaseResult.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/glenn/crawler/entity/NeteaseNewsResult.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/glenn/crawler/neteasedriver/CategoryCrawler.java" afterPath="$PROJECT_DIR$/src/main/java/com/glenn/crawler/neteasedriver/CategoryCrawler.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/glenn/crawler/neteasedriver/MainCrawler.java" afterPath="$PROJECT_DIR$/src/main/java/com/glenn/crawler/neteasedriver/MainCrawler.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/glenn/crawler/neteasedriver/SortClickMainCrawler.java" afterPath="$PROJECT_DIR$/src/main/java/com/glenn/crawler/neteasedriver/SortClickMainCrawler.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/glenn/util/WebDriverUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/glenn/util/WebDriverUtil.java" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/glenn/crawler/basedriver/BaseCrawler.class" afterPath="$PROJECT_DIR$/target/classes/com/glenn/crawler/basedriver/BaseCrawler.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/glenn/crawler/basedriver/RawCrawler.class" afterPath="$PROJECT_DIR$/target/classes/com/glenn/crawler/basedriver/RawCrawler.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/glenn/crawler/entity/BaseResult.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/glenn/crawler/entity/NeteaseNewsResult.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/glenn/crawler/neteasedriver/CategoryCrawler.class" afterPath="$PROJECT_DIR$/target/classes/com/glenn/crawler/neteasedriver/CategoryCrawler.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/glenn/crawler/neteasedriver/MainCrawler.class" afterPath="$PROJECT_DIR$/target/classes/com/glenn/crawler/neteasedriver/MainCrawler.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/glenn/crawler/neteasedriver/SortClickMainCrawler.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/glenn/test/TestWebDriver$1.class" afterPath="$PROJECT_DIR$/target/classes/com/glenn/test/TestWebDriver$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/glenn/test/TestWebDriver.class" afterPath="$PROJECT_DIR$/target/classes/com/glenn/test/TestWebDriver.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/glenn/util/DateUtil.class" afterPath="$PROJECT_DIR$/target/classes/com/glenn/util/DateUtil.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/glenn/util/FileUtil.class" afterPath="$PROJECT_DIR$/target/classes/com/glenn/util/FileUtil.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/glenn/util/HttpUtil.class" afterPath="$PROJECT_DIR$/target/classes/com/glenn/util/HttpUtil.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/glenn/util/LogUtil$LEVEL.class" afterPath="$PROJECT_DIR$/target/classes/com/glenn/util/LogUtil$LEVEL.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/glenn/util/LogUtil.class" afterPath="$PROJECT_DIR$/target/classes/com/glenn/util/LogUtil.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/glenn/util/WebDriverUtil.class" afterPath="$PROJECT_DIR$/target/classes/com/glenn/util/WebDriverUtil.class" />
+      <change beforePath="$PROJECT_DIR$/target/com.war" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/classes/com/glenn/crawler/basedriver/BaseCrawler.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/classes/com/glenn/crawler/basedriver/RawCrawler.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/classes/com/glenn/crawler/entity/BaseResult.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/classes/com/glenn/crawler/entity/NeteaseNewsResult.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/classes/com/glenn/crawler/neteasedriver/MainCrawler.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/classes/com/glenn/crawler/neteasedriver/SortClickMainCrawler.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/classes/com/glenn/util/DateUtil.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/classes/com/glenn/util/FileUtil.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/classes/com/glenn/util/HttpUtil.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/classes/com/glenn/util/LogUtil$LEVEL.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/classes/com/glenn/util/LogUtil.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/lib/antlr-2.7.6.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/lib/aopalliance-1.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/lib/asm-3.3.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/lib/asm-commons-3.3.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/lib/asm-tree-3.3.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/lib/bcprov-jdk15-135.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/lib/c3p0-0.9.1.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/lib/cglib-nodep-2.1_3.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/lib/commons-codec-1.4.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/lib/commons-collections-3.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/lib/commons-exec-1.3.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/lib/commons-fileupload-1.2.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/lib/commons-io-2.0.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/lib/commons-lang3-3.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/lib/commons-logging-1.1.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/lib/cssparser-0.9.20.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/lib/dom4j-1.6.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/lib/freemarker-2.3.19.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/lib/gson-2.8.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/lib/guava-19.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/lib/hibernate-commons-annotations-3.2.0.Final.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/lib/hibernate-core-3.6.9.Final.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/lib/hibernate-jpa-2.0-api-1.0.1.Final.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/lib/htmlunit-2.23.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/lib/htmlunit-core-js-2.23.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/lib/httpclient-4.5.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/lib/httpcore-4.4.4.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/lib/httpmime-4.5.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/lib/javassist-3.11.0.GA.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/lib/jcip-annotations-1.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/lib/jetty-io-9.2.15.v20160210.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/lib/jetty-util-9.2.15.v20160210.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/lib/jna-4.1.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/lib/jna-platform-4.1.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/lib/jsoup-1.11.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/lib/jta-1.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/lib/mx4j-tools-3.0.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/lib/mysql-connector-java-5.0.5.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/lib/neko-htmlunit-2.23.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/lib/netty-3.5.7.Final.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/lib/ognl-3.0.5.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/lib/phantomjsdriver-1.3.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/lib/sac-1.3.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/lib/selenium-api-3.0.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/lib/selenium-chrome-driver-3.0.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/lib/selenium-edge-driver-3.0.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/lib/selenium-firefox-driver-3.0.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/lib/selenium-ie-driver-3.0.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/lib/selenium-java-3.0.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/lib/selenium-opera-driver-3.0.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/lib/selenium-remote-driver-3.0.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/lib/selenium-safari-driver-3.0.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/lib/selenium-server-2.18.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/lib/selenium-support-3.0.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/lib/serializer-2.7.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/lib/servlet-api-2.5-6.1.9.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/lib/slf4j-api-1.7.25.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/lib/slf4j-nop-1.7.25.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/lib/snakeyaml-1.8.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/lib/spring-aop-3.1.1.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/lib/spring-asm-3.1.1.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/lib/spring-beans-3.1.1.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/lib/spring-context-3.1.1.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/lib/spring-core-3.1.1.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/lib/spring-expression-3.1.1.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/lib/spring-jdbc-3.1.1.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/lib/spring-orm-3.1.1.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/lib/spring-tx-3.1.1.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/lib/spring-web-3.1.1.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/lib/struts2-core-2.3.4.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/lib/struts2-spring-plugin-2.3.4.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/lib/websocket-api-9.2.15.v20160210.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/lib/websocket-client-9.2.15.v20160210.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/lib/websocket-common-9.2.15.v20160210.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/lib/xalan-2.7.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/lib/xercesImpl-2.11.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/lib/xml-apis-1.4.01.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/lib/xwork-core-2.3.4.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/WEB-INF/web.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/com/index.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,13 +164,101 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="netease_news" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="netease_news" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="netease_news" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="netease_news: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="171" column="28" lean-forward="false" selection-start-line="171" selection-start-column="28" selection-end-line="171" selection-end-column="28" />
+            <state relative-caret-position="246">
+              <caret line="229" column="69" lean-forward="true" selection-start-line="229" selection-start-column="69" selection-end-line="229" selection-end-column="69" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestAction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/glenn/test/TestAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="35" column="39" lean-forward="false" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CrawlMainDriver.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/glenn/main/CrawlMainDriver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="9" column="42" lean-forward="false" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LogUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/glenn/util/LogUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebDriverUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/glenn/util/WebDriverUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="15" column="78" lean-forward="false" selection-start-line="15" selection-start-column="78" selection-end-line="15" selection-end-column="78" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/glenn/test/TestService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="46" column="30" lean-forward="false" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NewsActionImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/glenn/action/NewsActionImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="244">
+              <caret line="22" column="58" lean-forward="false" selection-start-line="22" selection-start-column="58" selection-end-line="22" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -31,97 +267,15 @@
       <file leaf-file-name="MainCrawler.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/glenn/crawler/neteasedriver/MainCrawler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="29" column="63" lean-forward="false" selection-start-line="29" selection-start-column="63" selection-end-line="29" selection-end-column="63" />
+            <state relative-caret-position="100">
+              <caret line="38" column="9" lean-forward="false" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#591#592#0" expanded="true" />
-                <element signature="e#636#637#0" expanded="true" />
-                <element signature="e#1861#1862#0" expanded="true" />
-                <element signature="e#1888#1889#0" expanded="true" />
+                <element signature="e#793#794#0" expanded="true" />
+                <element signature="e#826#827#0" expanded="true" />
+                <element signature="e#4311#4312#0" expanded="true" />
+                <element signature="e#4338#4339#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CategoryCrawler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/glenn/crawler/neteasedriver/CategoryCrawler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="454">
-              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WebDriverUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/glenn/util/WebDriverUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="123" column="59" lean-forward="false" selection-start-line="123" selection-start-column="59" selection-end-line="123" selection-end-column="59" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#993#994#0" expanded="true" />
-                <element signature="e#1028#1029#0" expanded="true" />
-                <element signature="e#1060#1061#0" expanded="true" />
-                <element signature="e#1091#1092#0" expanded="true" />
-                <element signature="e#1127#1128#0" expanded="true" />
-                <element signature="e#1158#1159#0" expanded="true" />
-                <element signature="e#1606#1607#0" expanded="true" />
-                <element signature="e#1665#1666#0" expanded="true" />
-                <element signature="e#1700#1701#0" expanded="true" />
-                <element signature="e#1734#1735#0" expanded="true" />
-                <element signature="e#2763#2764#0" expanded="true" />
-                <element signature="e#2792#2793#0" expanded="true" />
-                <element signature="e#2819#2820#0" expanded="true" />
-                <element signature="e#2849#2850#0" expanded="true" />
-                <element signature="e#2913#2914#0" expanded="true" />
-                <element signature="e#2975#2976#0" expanded="true" />
-                <element signature="e#3091#3092#0" expanded="true" />
-                <element signature="e#3148#3149#0" expanded="true" />
-                <element signature="e#3210#3211#0" expanded="true" />
-                <element signature="e#3264#3265#0" expanded="true" />
-                <element signature="e#3319#3320#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestWebDriver.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/glenn/test/TestWebDriver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="34" column="33" lean-forward="false" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1846#2107#0" expanded="true" />
-                <element signature="e#2106#2107#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RemoteWebDriver.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.0.1/selenium-remote-driver-3.0.1-sources.jar!/org/openqa/selenium/remote/RemoteWebDriver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="355" column="18" lean-forward="false" selection-start-line="355" selection-start-column="18" selection-end-line="355" selection-end-column="18" />
-              <folding>
-                <element signature="e#12994#12995#0" expanded="true" />
-                <element signature="e#13032#13033#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SortClickMainCrawler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/glenn/crawler/neteasedriver/SortClickMainCrawler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-414">
-              <caret line="14" column="33" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="33" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -131,6 +285,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="FxmlFile" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -143,6 +299,7 @@
       <find>maven-war-plugin</find>
       <find>slf4j</find>
       <find>getCategoryContent</find>
+      <find>database</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -168,14 +325,29 @@
         <option value="$PROJECT_DIR$/src/main/java/com/glenn/crawler/neteasedriver/NeteaseNewsCrawler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/glenn/crawler/neteasedriver/NeteaseNewsMainCrawler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/glenn/crawler/entity/NeteaseNewsResult.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/glenn/crawler/basedriver/RawCrawler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/glenn/crawler/neteasedriver/SortClickMainCrawler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/glenn/crawler/neteasedriver/MainCrawler.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/glenn/crawler/neteasedriver/categoryCrawler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/glenn/crawler/neteasedriver/CategoryCrawler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/glenn/util/WebDriverUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/glenn/test/TestWebDriver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/glenn/crawler/neteasedriver/SortClickMainCrawler.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/db.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/glenn/entity/NewsEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/glenn/dao/NewsDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/glenn/dao/NewsDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/glenn/service/NewsService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/glenn/service/NewsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/glenn/crawler/basedriver/BaseCrawler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/glenn/action/NewsAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/glenn/test/TestAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/glenn/crawler/neteasedriver/CategoryCrawler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/glenn/crawler/basedriver/RawCrawler.java" />
+        <option value="$PROJECT_DIR$/out/artifacts/MavenWebDemo_war_exploded/META-INF/MANIFEST.MF" />
+        <option value="$USER_HOME$/.m2/settings.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/glenn/util/WebDriverUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/glenn/main/CrawlMainDriver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/glenn/action/NewsActionImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/glenn/crawler/neteasedriver/MainCrawler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/glenn/test/TestService.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -204,17 +376,17 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="MavenWebDemo Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="GCrawler" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="MavenWebDemo Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="GCrawler" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="MavenWebDemo Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="GCrawler" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
         </path>
       </expand>
       <select />
@@ -244,85 +416,103 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="MavenWebDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MavenWebDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="GCrawler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GCrawler" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="MavenWebDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MavenWebDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="GCrawler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GCrawler" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GCrawler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GCrawler" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GCrawler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GCrawler" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+              <item name="GCrawler_jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GCrawler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GCrawler" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="MavenWebDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MavenWebDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="GCrawler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GCrawler" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="MavenWebDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MavenWebDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="GCrawler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GCrawler" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="MavenWebDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MavenWebDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="GCrawler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GCrawler" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="neteasedriver" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="MavenWebDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MavenWebDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="GCrawler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GCrawler" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="MavenWebDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MavenWebDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="GCrawler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GCrawler" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="TestWebDriver" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="MavenWebDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MavenWebDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
-    <property name="last_opened_file_path" value="$USER_HOME$/下载/leodm/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/out/artifacts/MavenWebDemo_war_exploded/META-INF/MANIFEST.MF" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="JPA.DatabaseSchemaImportDialog" value="a56f54bc-95e9-41d1-933c-db604adeaad0" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/glenn/entity" />
+    </key>
+    <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="com.glenn.entity" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.glenn.crawler.neteasedriver" />
     </key>
@@ -342,7 +532,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestWebDriver">
+  <component name="RunManager" selected="Application.CrawlMainDriver">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -350,14 +540,71 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="TestWebDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="CategoryCrawler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.glenn.crawler.neteasedriver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.glenn.crawler.neteasedriver.CategoryCrawler" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="MavenWebDemo" />
+      <envs />
+    </configuration>
+    <configuration name="CrawlMainDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.glenn.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.glenn.main.CrawlMainDriver" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="GCrawler" />
+      <envs />
+    </configuration>
+    <configuration name="MainCrawler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.glenn.crawler.neteasedriver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.glenn.crawler.neteasedriver.MainCrawler" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="GCrawler" />
+      <envs />
+    </configuration>
+    <configuration name="TestService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.glenn.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.glenn.test.TestWebDriver" />
+      <option name="MAIN_CLASS_NAME" value="com.glenn.test.TestService" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -377,15 +624,15 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.glenn.util.WebDriverUtil" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="MavenWebDemo" />
+      <module name="GCrawler" />
       <envs />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -421,6 +668,18 @@
       </option>
       <envs />
       <patterns />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="MavenWebDemo" />
+      <envs />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
@@ -460,7 +719,7 @@
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8766/" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="MavenWebDemo:war exploded">
+        <artifact name="GCrawler:war exploded">
           <settings>
             <option name="CONTEXT_PATH" value="/" />
           </settings>
@@ -526,9 +785,7 @@
         </SHUTDOWN>
       </ConfigurationWrapper>
       <method>
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="MavenWebDemo:war exploded" />
-        </option>
+        <option name="BuildArtifacts" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -537,15 +794,21 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="3">
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.MavenDemo" />
-      <item index="1" class="java.lang.String" itemvalue="Application.TestWebDriver" />
-      <item index="2" class="java.lang.String" itemvalue="Application.WebDriverUtil" />
+      <item index="1" class="java.lang.String" itemvalue="Application.MainCrawler" />
+      <item index="2" class="java.lang.String" itemvalue="Application.CategoryCrawler" />
+      <item index="3" class="java.lang.String" itemvalue="Application.TestService" />
+      <item index="4" class="java.lang.String" itemvalue="Application.CrawlMainDriver" />
+      <item index="5" class="java.lang.String" itemvalue="Application.WebDriverUtil" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.TestWebDriver" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.CrawlMainDriver" />
         <item index="1" class="java.lang.String" itemvalue="Application.WebDriverUtil" />
+        <item index="2" class="java.lang.String" itemvalue="Application.MainCrawler" />
+        <item index="3" class="java.lang.String" itemvalue="Application.CategoryCrawler" />
+        <item index="4" class="java.lang.String" itemvalue="Application.TestService" />
       </list>
     </recent_temporary>
   </component>
@@ -569,11 +832,13 @@
       <updated>1526402827996</updated>
       <workItem from="1526402830979" duration="1399000" />
       <workItem from="1526404995564" duration="49950000" />
+      <workItem from="1529328652378" duration="23832000" />
+      <workItem from="1529512791275" duration="8032000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51349000" />
+    <option name="totallyTimeSpent" value="83213000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -585,33 +850,32 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="292" y="24" width="1857" height="1092" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4348786" sideWeight="0.5129619" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33618844" sideWeight="0.5460563" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12134583" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2496318" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32211804" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24931054" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42184153" sideWeight="0.48703805" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.4980695" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32869378" sideWeight="0.4980695" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42184153" sideWeight="0.45173746" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.4958632" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32869378" sideWeight="0.49145064" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.4980695" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33618844" sideWeight="0.49145064" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33618844" sideWeight="0.45394373" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19249862" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1969112" sideWeight="0.27096775" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1969112" sideWeight="0.7290323" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -619,6 +883,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -642,8 +907,128 @@
           <properties />
           <option name="timeStamp" value="23" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/glenn/util/WebDriverUtil.java</url>
+          <line>168</line>
+          <properties />
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/glenn/util/WebDriverUtil.java</url>
+          <line>163</line>
+          <properties />
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/glenn/util/WebDriverUtil.java</url>
+          <line>164</line>
+          <properties />
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/glenn/util/WebDriverUtil.java</url>
+          <line>62</line>
+          <properties />
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/glenn/util/WebDriverUtil.java</url>
+          <line>58</line>
+          <properties />
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/glenn/util/WebDriverUtil.java</url>
+          <line>57</line>
+          <properties />
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/glenn/test/TestService.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/glenn/test/TestService.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/glenn/test/TestService.java</url>
+          <line>53</line>
+          <properties />
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/glenn/test/TestService.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/glenn/test/TestService.java</url>
+          <line>76</line>
+          <properties />
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/glenn/test/TestService.java</url>
+          <line>78</line>
+          <properties />
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/glenn/test/TestService.java</url>
+          <line>80</line>
+          <properties />
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/glenn/test/TestAction.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/glenn/test/TestAction.java</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/glenn/test/TestAction.java</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/glenn/test/TestAction.java</url>
+          <line>53</line>
+          <properties />
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/glenn/test/TestAction.java</url>
+          <line>54</line>
+          <properties />
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/glenn/action/NewsActionImpl.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/glenn/crawler/neteasedriver/CategoryCrawler.java</url>
+          <line>134</line>
+          <properties />
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="27" />
+      <option name="time" value="81" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -652,231 +1037,10 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/glenn/util/HttpClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/下载/Crawl/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="37" column="21" lean-forward="true" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/glenn/util/HttpUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="83" column="25" lean-forward="false" selection-start-line="83" selection-start-column="25" selection-end-line="83" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar!/java/net/URLConnection.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="89" column="28" lean-forward="false" selection-start-line="89" selection-start-column="17" selection-end-line="89" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.11.2/jsoup-1.11.2.jar!/org/jsoup/nodes/Element.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="462" column="37" lean-forward="false" selection-start-line="462" selection-start-column="8" selection-end-line="462" selection-end-column="37" />
-          <folding>
-            <marker date="1527308073167" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1527308073167" expanded="false" signature="139:2043" ph="..." />
-            <marker date="1527308073167" expanded="false" signature="2429:2440" ph=" { " />
-            <marker date="1527308073167" expanded="false" signature="2485:2491" ph=" }" />
-            <marker date="1527308073167" expanded="true" signature="2560:2766" ph="{...}" />
-            <marker date="1527308073167" expanded="false" signature="2811:2822" ph=" { " />
-            <marker date="1527308073167" expanded="false" signature="2859:2865" ph=" }" />
-            <marker date="1527308073167" expanded="true" signature="2911:3068" ph="{...}" />
-            <marker date="1527308073167" expanded="false" signature="3107:3118" ph=" { " />
-            <marker date="1527308073167" expanded="false" signature="3149:3155" ph=" }" />
-            <marker date="1527308073167" expanded="true" signature="3192:3327" ph="{...}" />
-            <marker date="1527308073167" expanded="false" signature="3356:3367" ph=" { " />
-            <marker date="1527308073167" expanded="false" signature="3387:3393" ph=" }" />
-            <marker date="1527308073167" expanded="false" signature="3442:3453" ph=" { " />
-            <marker date="1527308073167" expanded="false" signature="3476:3482" ph=" }" />
-            <marker date="1527308073167" expanded="false" signature="3514:3525" ph=" { " />
-            <marker date="1527308073167" expanded="false" signature="3555:3561" ph=" }" />
-            <marker date="1527308073167" expanded="false" signature="3591:3602" ph=" { " />
-            <marker date="1527308073167" expanded="false" signature="3628:3634" ph=" }" />
-            <marker date="1527308073167" expanded="false" signature="3663:3674" ph=" { " />
-            <marker date="1527308073167" expanded="false" signature="3700:3706" ph=" }" />
-            <marker date="1527308073167" expanded="true" signature="3751:3915" ph="{...}" />
-            <marker date="1527308073167" expanded="false" signature="3937:3948" ph=" { " />
-            <marker date="1527308073167" expanded="false" signature="3964:3970" ph=" }" />
-            <marker date="1527308073167" expanded="false" signature="4000:4011" ph=" { " />
-            <marker date="1527308073167" expanded="false" signature="4037:4043" ph=" }" />
-            <marker date="1527308073167" expanded="false" signature="4067:4078" ph=" { " />
-            <marker date="1527308073167" expanded="false" signature="4123:4129" ph=" }" />
-            <marker date="1527308073167" expanded="true" signature="4199:4277" ph="{...}" />
-            <marker date="1527308073167" expanded="true" signature="4348:4437" ph="{...}" />
-            <marker date="1527308073167" expanded="false" signature="4479:4490" ph=" { " />
-            <marker date="1527308073167" expanded="false" signature="4525:4531" ph=" }" />
-            <marker date="1527308073167" expanded="false" signature="4566:4577" ph=" { " />
-            <marker date="1527308073167" expanded="false" signature="4609:4615" ph=" }" />
-            <marker date="1527308073167" expanded="true" signature="4647:4763" ph="{...}" />
-            <marker date="1527308073167" expanded="true" signature="4837:5041" ph="{...}" />
-            <marker date="1527308073167" expanded="false" signature="5078:5089" ph=" { " />
-            <marker date="1527308073167" expanded="false" signature="5141:5147" ph=" }" />
-            <marker date="1527308073167" expanded="false" signature="5179:5190" ph=" { " />
-            <marker date="1527308073167" expanded="false" signature="5236:5242" ph=" }" />
-            <marker date="1527308073167" expanded="true" signature="5290:5866" ph="{...}" />
-            <marker date="1527308073167" expanded="true" signature="5895:5974" ph="{...}" />
-            <marker date="1527308073167" expanded="true" signature="6014:6373" ph="{...}" />
-            <marker date="1527308073167" expanded="true" signature="6413:6772" ph="{...}" />
-            <marker date="1527308073167" expanded="false" signature="6817:6828" ph=" { " />
-            <marker date="1527308073167" expanded="false" signature="6867:6873" ph=" }" />
-            <marker date="1527308073167" expanded="false" signature="6922:6933" ph=" { " />
-            <marker date="1527308073167" expanded="false" signature="6977:6983" ph=" }" />
-            <marker date="1527308073167" expanded="false" signature="7023:7034" ph=" { " />
-            <marker date="1527308073167" expanded="false" signature="7078:7084" ph=" }" />
-            <marker date="1527308073167" expanded="false" signature="7128:7139" ph=" { " />
-            <marker date="1527308073167" expanded="false" signature="7192:7198" ph=" }" />
-            <marker date="1527308073167" expanded="true" signature="7243:7467" ph="{...}" />
-            <marker date="1527308073167" expanded="true" signature="7513:7609" ph="{...}" />
-            <marker date="1527308073167" expanded="true" signature="7655:7764" ph="{...}" />
-            <marker date="1527308073167" expanded="true" signature="7848:8360" ph="{...}" />
-            <marker date="1527308073167" expanded="true" signature="8425:8805" ph="{...}" />
-            <marker date="1527308073167" expanded="true" signature="8856:8993" ph="{...}" />
-            <marker date="1527308073167" expanded="true" signature="9045:9183" ph="{...}" />
-            <marker date="1527308073167" expanded="true" signature="9228:9364" ph="{...}" />
-            <marker date="1527308073167" expanded="true" signature="9410:9547" ph="{...}" />
-            <marker date="1527308073167" expanded="true" signature="9588:9798" ph="{...}" />
-            <marker date="1527308073167" expanded="true" signature="9840:10053" ph="{...}" />
-            <marker date="1527308073167" expanded="false" signature="10093:10104" ph=" { " />
-            <marker date="1527308073167" expanded="false" signature="10139:10145" ph=" }" />
-            <marker date="1527308073167" expanded="false" signature="10183:10194" ph=" { " />
-            <marker date="1527308073167" expanded="false" signature="10229:10235" ph=" }" />
-            <marker date="1527308073167" expanded="false" signature="10274:10285" ph=" { " />
-            <marker date="1527308073167" expanded="false" signature="10319:10325" ph=" }" />
-            <marker date="1527308073167" expanded="false" signature="10362:10373" ph=" { " />
-            <marker date="1527308073167" expanded="false" signature="10407:10413" ph=" }" />
-            <marker date="1527308073167" expanded="true" signature="10442:10503" ph="{...}" />
-            <marker date="1527308073167" expanded="false" signature="10541:10552" ph=" { " />
-            <marker date="1527308073167" expanded="false" signature="10585:10591" ph=" }" />
-            <marker date="1527308073167" expanded="true" signature="10625:11514" ph="{...}" />
-            <marker date="1527308073167" expanded="true" signature="11554:12073" ph="{...}" />
-            <marker date="1527308073167" expanded="true" signature="12115:12469" ph="{...}" />
-            <marker date="1527308073167" expanded="true" signature="12515:12851" ph="{...}" />
-            <marker date="1527308073167" expanded="true" signature="12894:13039" ph="{...}" />
-            <marker date="1527308073167" expanded="true" signature="13078:13182" ph="{...}" />
-            <marker date="1527308073167" expanded="true" signature="13224:13387" ph="{...}" />
-            <marker date="1527308073167" expanded="true" signature="13478:13650" ph="{...}" />
-            <marker date="1527308073167" expanded="true" signature="13705:13882" ph="{...}" />
-            <marker date="1527308073167" expanded="true" signature="13929:14102" ph="{...}" />
-            <marker date="1527308073167" expanded="true" signature="14161:14268" ph="{...}" />
-            <marker date="1527308073167" expanded="true" signature="14325:14450" ph="{...}" />
-            <marker date="1527308073167" expanded="true" signature="14521:14678" ph="{...}" />
-            <marker date="1527308073167" expanded="true" signature="14754:14837" ph="{...}" />
-            <marker date="1527308073167" expanded="true" signature="14916:15002" ph="{...}" />
-            <marker date="1527308073167" expanded="true" signature="15092:15189" ph="{...}" />
-            <marker date="1527308073167" expanded="true" signature="15277:15372" ph="{...}" />
-            <marker date="1527308073167" expanded="true" signature="15458:15551" ph="{...}" />
-            <marker date="1527308073167" expanded="true" signature="15638:15731" ph="{...}" />
-            <marker date="1527308073167" expanded="true" signature="15815:16125" ph="{...}" />
-            <marker date="1527308073167" expanded="false" signature="16184:16195" ph=" { " />
-            <marker date="1527308073167" expanded="false" signature="16252:16258" ph=" }" />
-            <marker date="1527308073167" expanded="true" signature="16321:16397" ph="{...}" />
-            <marker date="1527308073167" expanded="false" signature="16454:16465" ph=" { " />
-            <marker date="1527308073167" expanded="false" signature="16520:16526" ph=" }" />
-            <marker date="1527308073167" expanded="true" signature="16593:16670" ph="{...}" />
-            <marker date="1527308073167" expanded="true" signature="16740:16820" ph="{...}" />
-            <marker date="1527308073167" expanded="false" signature="16882:16893" ph=" { " />
-            <marker date="1527308073167" expanded="false" signature="16946:16952" ph=" }" />
-            <marker date="1527308073167" expanded="true" signature="17012:17305" ph="{...}" />
-            <marker date="1527308073167" expanded="true" signature="17371:17443" ph="{...}" />
-            <marker date="1527308073167" expanded="true" signature="17506:17802" ph="{...}" />
-            <marker date="1527308073167" expanded="false" signature="17840:17851" ph=" { " />
-            <marker date="1527308073167" expanded="false" signature="17901:17907" ph=" }" />
-            <marker date="1527308073167" expanded="true" signature="17934:18752" ph="{...}" />
-            <marker date="1527308073167" expanded="true" signature="18042:18698" ph="{...}" />
-            <marker date="1527308073167" expanded="true" signature="18095:18620" ph="{...}" />
-            <marker date="1527308073167" expanded="true" signature="18673:18688" ph="{}" />
-            <marker date="1527308073167" expanded="true" signature="18784:19267" ph="{...}" />
-            <marker date="1527308073167" expanded="true" signature="18892:19220" ph="{...}" />
-            <marker date="1527308073167" expanded="true" signature="18945:19142" ph="{...}" />
-            <marker date="1527308073167" expanded="true" signature="19195:19210" ph="{}" />
-            <marker date="1527308073167" expanded="true" signature="19297:19415" ph="{...}" />
-            <marker date="1527308073167" expanded="true" signature="19463:19889" ph="{...}" />
-            <marker date="1527308073167" expanded="true" signature="19976:20247" ph="{...}" />
-            <marker date="1527308073167" expanded="true" signature="20332:20472" ph="{...}" />
-            <marker date="1527308073167" expanded="true" signature="20523:20899" ph="{...}" />
-            <marker date="1527308073167" expanded="true" signature="20938:21104" ph="{...}" />
-            <marker date="1527308073167" expanded="true" signature="21135:21693" ph="{...}" />
-            <marker date="1527308073167" expanded="true" signature="21720:22470" ph="{...}" />
-            <marker date="1527308073167" expanded="false" signature="22501:22512" ph=" { " />
-            <marker date="1527308073167" expanded="false" signature="22545:22551" ph=" }" />
-            <marker date="1527308073167" expanded="true" signature="22589:22789" ph="{...}" />
-            <marker date="1527308073167" expanded="true" signature="22845:23100" ph="{...}" />
-            <marker date="1527308073167" expanded="true" signature="23148:24407" ph="{...}" />
-            <marker date="1527308073167" expanded="true" signature="24455:24635" ph="{...}" />
-            <marker date="1527308073167" expanded="true" signature="24686:24869" ph="{...}" />
-            <marker date="1527308073167" expanded="true" signature="24920:25214" ph="{...}" />
-            <marker date="1527308073167" expanded="false" signature="25239:25250" ph=" { " />
-            <marker date="1527308073167" expanded="false" signature="25326:25332" ph=" }" />
-            <marker date="1527308073167" expanded="true" signature="25371:25545" ph="{...}" />
-            <marker date="1527308073167" expanded="true" signature="25638:26512" ph="{...}" />
-            <marker date="1527308073167" expanded="true" signature="26605:27050" ph="{...}" />
-            <marker date="1527308073167" expanded="true" signature="27077:27268" ph="{...}" />
-            <marker date="1527308073167" expanded="true" signature="27313:27494" ph="{...}" />
-            <marker date="1527308073167" expanded="true" signature="27551:27764" ph="{...}" />
-            <marker date="1527308073167" expanded="true" signature="27803:27880" ph="{...}" />
-            <marker date="1527308073167" expanded="false" signature="27910:27921" ph=" { " />
-            <marker date="1527308073167" expanded="false" signature="27945:27951" ph=" }" />
-            <marker date="1527308073167" expanded="false" signature="27979:27990" ph=" { " />
-            <marker date="1527308073167" expanded="false" signature="28020:28026" ph=" }" />
-            <marker date="1527308073167" expanded="false" signature="28061:28072" ph=" { " />
-            <marker date="1527308073167" expanded="false" signature="28132:28138" ph=" }" />
-            <marker date="1527308073167" expanded="true" signature="28183:28521" ph="{...}" />
-            <marker date="1527308073167" expanded="true" signature="28602:28875" ph="{...}" />
-            <marker date="1527308073167" expanded="true" signature="28695:28774" ph="{...}" />
-            <marker date="1527308073167" expanded="false" signature="28815:28830" ph=" { " />
-            <marker date="1527308073167" expanded="false" signature="28859:28869" ph=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.11.2/jsoup-1.11.2-sources.jar!/org/jsoup/select/Collector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="24" column="64" lean-forward="false" selection-start-line="24" selection-start-column="60" selection-end-line="24" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.11.2/jsoup-1.11.2-sources.jar!/org/jsoup/select/Evaluator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1944">
           <caret line="108" column="15" lean-forward="false" selection-start-line="108" selection-start-column="15" selection-end-line="108" selection-end-column="15" />
-          <folding>
-            <element signature="e#2657#2658#0" expanded="false" />
-            <element signature="e#2707#2708#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.11.2/jsoup-1.11.2-sources.jar!/org/jsoup/nodes/Element.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="789" column="20" lean-forward="false" selection-start-line="789" selection-start-column="20" selection-end-line="789" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -884,18 +1048,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="145" column="57" lean-forward="true" selection-start-line="145" selection-start-column="57" selection-end-line="145" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/glenn/util/DateUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="51" column="25" lean-forward="false" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
-          <folding>
-            <element signature="e#1717#1718#0" expanded="false" />
-            <element signature="e#1766#1767#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -911,45 +1063,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="42" column="20" lean-forward="false" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/glenn/crawler/entity/NeteaseNewsResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-384">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/glenn/crawler/entity/BaseResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/glenn/crawler/basedriver/BaseCrawler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="937">
-          <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#385#386#0" expanded="false" />
-            <element signature="e#440#441#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/glenn/crawler/basedriver/RawCrawler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="45" lean-forward="false" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -957,7 +1070,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -965,195 +1077,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="479" column="32" lean-forward="false" selection-start-line="479" selection-start-column="32" selection-end-line="479" selection-end-column="32" />
-          <folding>
-            <marker date="1528520696170" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1528520696170" expanded="false" signature="150:2705" ph="..." />
-            <marker date="1528520696170" expanded="true" signature="3510:3719" ph="{...}" />
-            <marker date="1528520696170" expanded="true" signature="3843:4825" ph="{...}" />
-            <marker date="1528520696170" expanded="true" signature="4914:5003" ph="{...}" />
-            <marker date="1528520696170" expanded="false" signature="5065:5076" ph=" { " />
-            <marker date="1528520696170" expanded="false" signature="5113:5119" ph=" }" />
-            <marker date="1528520696170" expanded="true" signature="5236:5359" ph="{...}" />
-            <marker date="1528520696170" expanded="true" signature="5441:5562" ph="{...}" />
-            <marker date="1528520696170" expanded="true" signature="5655:7554" ph="{...}" />
-            <marker date="1528520696170" expanded="true" signature="7611:7809" ph="{...}" />
-            <marker date="1528520696170" expanded="false" signature="7846:7857" ph=" { " />
-            <marker date="1528520696170" expanded="false" signature="7879:7885" ph=" }" />
-            <marker date="1528520696170" expanded="false" signature="7936:7947" ph=" { " />
-            <marker date="1528520696170" expanded="false" signature="7989:7995" ph=" }" />
-            <marker date="1528520696170" expanded="true" signature="8063:8138" ph="{...}" />
-            <marker date="1528520696170" expanded="true" signature="8241:9827" ph="{...}" />
-            <marker date="1528520696170" expanded="true" signature="9862:9869" ph="{}" />
-            <marker date="1528520696170" expanded="true" signature="9971:10006" ph="{...}" />
-            <marker date="1528520696170" expanded="true" signature="10040:10047" ph="{}" />
-            <marker date="1528520696170" expanded="true" signature="10148:10182" ph="{...}" />
-            <marker date="1528520696170" expanded="false" signature="10225:10236" ph=" { " />
-            <marker date="1528520696170" expanded="false" signature="10261:10267" ph=" }" />
-            <marker date="1528520696170" expanded="false" signature="10322:10333" ph=" { " />
-            <marker date="1528520696170" expanded="false" signature="10361:10367" ph=" }" />
-            <marker date="1528520696170" expanded="false" signature="10416:10427" ph=" { " />
-            <marker date="1528520696170" expanded="false" signature="10448:10454" ph=" }" />
-            <marker date="1528520696170" expanded="false" signature="10519:10530" ph=" { " />
-            <marker date="1528520696170" expanded="false" signature="10555:10561" ph=" }" />
-            <marker date="1528520696170" expanded="false" signature="10604:10615" ph=" { " />
-            <marker date="1528520696170" expanded="false" signature="10640:10646" ph=" }" />
-            <marker date="1528520696170" expanded="false" signature="10679:10690" ph=" { " />
-            <marker date="1528520696170" expanded="false" signature="10739:10745" ph=" }" />
-            <marker date="1528520696170" expanded="true" signature="10776:10935" ph="{...}" />
-            <marker date="1528520696170" expanded="true" signature="10971:11271" ph="{...}" />
-            <marker date="1528520696170" expanded="true" signature="11358:12047" ph="{...}" />
-            <marker date="1528520696170" expanded="false" signature="12096:12107" ph=" { " />
-            <marker date="1528520696170" expanded="false" signature="12136:12142" ph=" }" />
-            <marker date="1528520696170" expanded="false" signature="12184:12195" ph=" { " />
-            <marker date="1528520696170" expanded="false" signature="12223:12229" ph=" }" />
-            <marker date="1528520696170" expanded="true" signature="12293:12966" ph="{...}" />
-            <marker date="1528520696170" expanded="true" signature="13066:13207" ph="{...}" />
-            <marker date="1528520696170" expanded="true" signature="13278:14128" ph="{...}" />
-            <marker date="1528520696170" expanded="true" signature="14172:14501" ph="{...}" />
-            <marker date="1528520696170" expanded="false" signature="14554:14565" ph=" { " />
-            <marker date="1528520696170" expanded="false" signature="14602:14608" ph=" }" />
-            <marker date="1528520696170" expanded="false" signature="14668:14679" ph=" { " />
-            <marker date="1528520696170" expanded="false" signature="14717:14723" ph=" }" />
-            <marker date="1528520696170" expanded="false" signature="14782:14793" ph=" { " />
-            <marker date="1528520696170" expanded="false" signature="14837:14843" ph=" }" />
-            <marker date="1528520696170" expanded="false" signature="14909:14920" ph=" { " />
-            <marker date="1528520696170" expanded="false" signature="14965:14971" ph=" }" />
-            <marker date="1528520696170" expanded="true" signature="15038:15106" ph="{...}" />
-            <marker date="1528520696170" expanded="true" signature="15180:15249" ph="{...}" />
-            <marker date="1528520696170" expanded="false" signature="15307:15318" ph=" { " />
-            <marker date="1528520696170" expanded="false" signature="15361:15367" ph=" }" />
-            <marker date="1528520696170" expanded="false" signature="15432:15443" ph=" { " />
-            <marker date="1528520696170" expanded="false" signature="15487:15493" ph=" }" />
-            <marker date="1528520696170" expanded="false" signature="15548:15559" ph=" { " />
-            <marker date="1528520696170" expanded="false" signature="15598:15604" ph=" }" />
-            <marker date="1528520696170" expanded="false" signature="15666:15677" ph=" { " />
-            <marker date="1528520696170" expanded="false" signature="15717:15723" ph=" }" />
-            <marker date="1528520696170" expanded="false" signature="15783:15794" ph=" { " />
-            <marker date="1528520696170" expanded="false" signature="15839:15845" ph=" }" />
-            <marker date="1528520696170" expanded="false" signature="15912:15923" ph=" { " />
-            <marker date="1528520696170" expanded="false" signature="15969:15975" ph=" }" />
-            <marker date="1528520696170" expanded="false" signature="16037:16048" ph=" { " />
-            <marker date="1528520696170" expanded="false" signature="16095:16101" ph=" }" />
-            <marker date="1528520696170" expanded="false" signature="16170:16181" ph=" { " />
-            <marker date="1528520696170" expanded="false" signature="16229:16235" ph=" }" />
-            <marker date="1528520696170" expanded="false" signature="16291:16302" ph=" { " />
-            <marker date="1528520696170" expanded="false" signature="16342:16348" ph=" }" />
-            <marker date="1528520696170" expanded="false" signature="16411:16422" ph=" { " />
-            <marker date="1528520696170" expanded="false" signature="16463:16469" ph=" }" />
-            <marker date="1528520696170" expanded="false" signature="16504:16515" ph=" { " />
-            <marker date="1528520696170" expanded="false" signature="16571:16577" ph=" }" />
-            <marker date="1528520696170" expanded="false" signature="16602:16613" ph=" { " />
-            <marker date="1528520696170" expanded="false" signature="16635:16641" ph=" }" />
-            <marker date="1528520696170" expanded="true" signature="16666:16890" ph="{...}" />
-            <marker date="1528520696170" expanded="true" signature="16934:17337" ph="{...}" />
-            <marker date="1528520696170" expanded="false" signature="17374:17385" ph=" { " />
-            <marker date="1528520696170" expanded="false" signature="17458:17464" ph=" }" />
-            <marker date="1528520696170" expanded="true" signature="17529:18126" ph="{...}" />
-            <marker date="1528520696170" expanded="true" signature="18196:18785" ph="{...}" />
-            <marker date="1528520696170" expanded="false" signature="18828:18839" ph=" { " />
-            <marker date="1528520696170" expanded="false" signature="18886:18892" ph=" }" />
-            <marker date="1528520696170" expanded="false" signature="18929:18940" ph=" { " />
-            <marker date="1528520696170" expanded="false" signature="18989:18995" ph=" }" />
-            <marker date="1528520696170" expanded="false" signature="19029:19040" ph=" { " />
-            <marker date="1528520696170" expanded="false" signature="19090:19096" ph=" }" />
-            <marker date="1528520696170" expanded="false" signature="19125:19136" ph=" { " />
-            <marker date="1528520696170" expanded="false" signature="19188:19194" ph=" }" />
-            <marker date="1528520696170" expanded="false" signature="19271:19282" ph=" { " />
-            <marker date="1528520696170" expanded="false" signature="19309:19315" ph=" }" />
-            <marker date="1528520696170" expanded="false" signature="19378:19389" ph=" { " />
-            <marker date="1528520696170" expanded="false" signature="19411:19417" ph=" }" />
-            <marker date="1528520696170" expanded="false" signature="19459:19470" ph=" { " />
-            <marker date="1528520696170" expanded="false" signature="19489:19495" ph=" }" />
-            <marker date="1528520696170" expanded="true" signature="19577:22475" ph="{...}" />
-            <marker date="1528520696170" expanded="false" signature="22523:22534" ph=" { " />
-            <marker date="1528520696170" expanded="false" signature="22582:22588" ph=" }" />
-            <marker date="1528520696170" expanded="false" signature="22636:22647" ph=" { " />
-            <marker date="1528520696170" expanded="false" signature="22673:22679" ph=" }" />
-            <marker date="1528520696170" expanded="false" signature="22714:22725" ph=" { " />
-            <marker date="1528520696170" expanded="false" signature="22746:22752" ph=" }" />
-            <marker date="1528520696170" expanded="false" signature="22781:22792" ph=" { " />
-            <marker date="1528520696170" expanded="false" signature="22810:22816" ph=" }" />
-            <marker date="1528520696170" expanded="true" signature="22923:23617" ph="{...}" />
-            <marker date="1528520696170" expanded="false" signature="23660:23671" ph=" { " />
-            <marker date="1528520696170" expanded="false" signature="23696:23702" ph=" }" />
-            <marker date="1528520696170" expanded="true" signature="23733:23974" ph="{...}" />
-            <marker date="1528520696170" expanded="true" signature="24004:24097" ph="{...}" />
-            <marker date="1528520696170" expanded="true" signature="24080:24091" ph="{}" />
-            <marker date="1528520696170" expanded="true" signature="24146:25365" ph="{...}" />
-            <marker date="1528520696170" expanded="true" signature="24177:24188" ph="{}" />
-            <marker date="1528520696170" expanded="false" signature="24219:24234" ph=" { " />
-            <marker date="1528520696170" expanded="false" signature="24279:24289" ph=" }" />
-            <marker date="1528520696170" expanded="false" signature="24319:24334" ph=" { " />
-            <marker date="1528520696170" expanded="false" signature="24378:24388" ph=" }" />
-            <marker date="1528520696170" expanded="false" signature="24421:24436" ph=" { " />
-            <marker date="1528520696170" expanded="false" signature="24507:24517" ph=" }" />
-            <marker date="1528520696170" expanded="true" signature="24567:24674" ph="{...}" />
-            <marker date="1528520696170" expanded="true" signature="24750:25196" ph="{...}" />
-            <marker date="1528520696170" expanded="true" signature="25275:25359" ph="{...}" />
-            <marker date="1528520696170" expanded="true" signature="25432:28465" ph="{...}" />
-            <marker date="1528520696170" expanded="true" signature="25474:25485" ph="{}" />
-            <marker date="1528520696170" expanded="true" signature="25534:25680" ph="{...}" />
-            <marker date="1528520696170" expanded="true" signature="25731:26437" ph="{...}" />
-            <marker date="1528520696170" expanded="true" signature="26495:26734" ph="{...}" />
-            <marker date="1528520696170" expanded="true" signature="26775:26892" ph="{...}" />
-            <marker date="1528520696170" expanded="true" signature="26953:27841" ph="{...}" />
-            <marker date="1528520696170" expanded="true" signature="27885:28111" ph="{...}" />
-            <marker date="1528520696170" expanded="true" signature="28155:28300" ph="{...}" />
-            <marker date="1528520696170" expanded="true" signature="28331:28459" ph="{...}" />
-            <marker date="1528520696170" expanded="true" signature="28524:29059" ph="{...}" />
-            <marker date="1528520696170" expanded="true" signature="28561:28572" ph="{}" />
-            <marker date="1528520696170" expanded="false" signature="28600:28615" ph=" { " />
-            <marker date="1528520696170" expanded="false" signature="28654:28664" ph=" }" />
-            <marker date="1528520696170" expanded="false" signature="28695:28710" ph=" { " />
-            <marker date="1528520696170" expanded="false" signature="28752:28762" ph=" }" />
-            <marker date="1528520696170" expanded="false" signature="28798:28813" ph=" { " />
-            <marker date="1528520696170" expanded="false" signature="28843:28853" ph=" }" />
-            <marker date="1528520696170" expanded="false" signature="28886:28901" ph=" { " />
-            <marker date="1528520696170" expanded="false" signature="28947:28957" ph=" }" />
-            <marker date="1528520696170" expanded="false" signature="28988:29003" ph=" { " />
-            <marker date="1528520696170" expanded="false" signature="29043:29053" ph=" }" />
-            <marker date="1528520696170" expanded="true" signature="29123:35804" ph="{...}" />
-            <marker date="1528520696170" expanded="true" signature="29168:29179" ph="{}" />
-            <marker date="1528520696170" expanded="false" signature="29221:29236" ph=" { " />
-            <marker date="1528520696170" expanded="false" signature="29275:29285" ph=" }" />
-            <marker date="1528520696170" expanded="true" signature="29332:29464" ph="{...}" />
-            <marker date="1528520696170" expanded="true" signature="29517:29617" ph="{...}" />
-            <marker date="1528520696170" expanded="false" signature="29666:29681" ph=" { " />
-            <marker date="1528520696170" expanded="false" signature="29722:29732" ph=" }" />
-            <marker date="1528520696170" expanded="false" signature="29772:29787" ph=" { " />
-            <marker date="1528520696170" expanded="false" signature="29836:29846" ph=" }" />
-            <marker date="1528520696170" expanded="true" signature="29888:31321" ph="{...}" />
-            <marker date="1528520696170" expanded="true" signature="31373:31754" ph="{...}" />
-            <marker date="1528520696170" expanded="false" signature="31790:31805" ph=" { " />
-            <marker date="1528520696170" expanded="false" signature="31872:31882" ph=" }" />
-            <marker date="1528520696170" expanded="false" signature="31915:31930" ph=" { " />
-            <marker date="1528520696170" expanded="false" signature="32007:32017" ph=" }" />
-            <marker date="1528520696170" expanded="false" signature="32063:32078" ph=" { " />
-            <marker date="1528520696170" expanded="false" signature="32143:32153" ph=" }" />
-            <marker date="1528520696170" expanded="true" signature="32224:33838" ph="{...}" />
-            <marker date="1528520696170" expanded="true" signature="32306:32321" ph="{}" />
-            <marker date="1528520696170" expanded="true" signature="32377:32535" ph="{...}" />
-            <marker date="1528520696170" expanded="true" signature="32595:32740" ph="{...}" />
-            <marker date="1528520696170" expanded="true" signature="32781:33155" ph="{...}" />
-            <marker date="1528520696170" expanded="true" signature="33196:33578" ph="{...}" />
-            <marker date="1528520696170" expanded="false" signature="33614:33633" ph=" { " />
-            <marker date="1528520696170" expanded="false" signature="33687:33701" ph=" }" />
-            <marker date="1528520696170" expanded="false" signature="33739:33758" ph=" { " />
-            <marker date="1528520696170" expanded="false" signature="33814:33828" ph=" }" />
-            <marker date="1528520696170" expanded="true" signature="33899:34750" ph="{...}" />
-            <marker date="1528520696170" expanded="true" signature="33940:33955" ph="{}" />
-            <marker date="1528520696170" expanded="true" signature="34026:34216" ph="{...}" />
-            <marker date="1528520696170" expanded="true" signature="34289:34477" ph="{...}" />
-            <marker date="1528520696170" expanded="true" signature="34549:34740" ph="{...}" />
-            <marker date="1528520696170" expanded="true" signature="34823:35798" ph="{...}" />
-            <marker date="1528520696170" expanded="true" signature="34874:34889" ph="{}" />
-            <marker date="1528520696170" expanded="true" signature="34945:35102" ph="{...}" />
-            <marker date="1528520696170" expanded="true" signature="35148:35303" ph="{...}" />
-            <marker date="1528520696170" expanded="true" signature="35346:35498" ph="{...}" />
-            <marker date="1528520696170" expanded="false" signature="35536:35555" ph=" { " />
-            <marker date="1528520696170" expanded="false" signature="35601:35615" ph=" }" />
-            <marker date="1528520696170" expanded="true" signature="35671:35788" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1161,7 +1084,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="215" column="0" lean-forward="false" selection-start-line="215" selection-start-column="0" selection-end-line="215" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1169,15 +1091,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="176" column="18" lean-forward="false" selection-start-line="176" selection-start-column="18" selection-end-line="176" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/glenn/crawler/neteasedriver/SortClickMainCrawler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-414">
-          <caret line="14" column="33" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1185,16 +1098,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="28" column="9" lean-forward="false" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
-          <folding>
-            <marker date="1528520694530" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1528520694530" expanded="false" signature="143:280" ph="..." />
-            <marker date="1528520694530" expanded="true" signature="781:979" ph="{...}" />
-            <marker date="1528520694530" expanded="true" signature="1013:1202" ph="{...}" />
-            <marker date="1528520694530" expanded="true" signature="1236:1373" ph="{...}" />
-            <marker date="1528520694530" expanded="true" signature="1410:1706" ph="{...}" />
-            <marker date="1528520694530" expanded="true" signature="1738:1957" ph="{...}" />
-            <marker date="1528520694530" expanded="true" signature="1988:2382" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1218,96 +1121,310 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="171" column="35" lean-forward="false" selection-start-line="171" selection-start-column="35" selection-end-line="171" selection-end-column="35" />
-          <folding>
-            <element signature="e#12914#12915#0" expanded="true" />
-            <element signature="e#12952#12953#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.0.1/selenium-remote-driver-3.0.1-sources.jar!/org/openqa/selenium/remote/RemoteWebDriver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="355" column="18" lean-forward="false" selection-start-line="355" selection-start-column="18" selection-end-line="355" selection-end-column="18" />
+        <state relative-caret-position="1017">
+          <caret line="356" column="3" lean-forward="true" selection-start-line="356" selection-start-column="3" selection-end-line="356" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/a56f54bc-95e9-41d1-933c-db604adeaad0/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/NewsEntity.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/glenn/entity/NewsEntityPK.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="20" column="25" lean-forward="false" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/glenn/util/HttpUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="94" column="25" lean-forward="false" selection-start-line="94" selection-start-column="25" selection-end-line="94" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.11.2/jsoup-1.11.2-sources.jar!/org/jsoup/nodes/Element.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="141" column="19" lean-forward="false" selection-start-line="141" selection-start-column="19" selection-end-line="141" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar!/java/lang/String.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="22" column="19" lean-forward="false" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/glenn/crawler/entity/BaseResult.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/glenn/crawler/entity/NeteaseNewsResult.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/glenn/test/TestWebDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="26" column="27" lean-forward="true" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/glenn/dao/NewsDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="47" lean-forward="true" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/glenn/service/NewsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
-            <element signature="e#12994#12995#0" expanded="true" />
-            <element signature="e#13032#13033#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1207#1208#0" expanded="false" />
+            <element signature="e#1265#1266#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/glenn/dao/NewsDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="171" column="28" lean-forward="false" selection-start-line="171" selection-start-column="28" selection-end-line="171" selection-end-column="28" />
+        <state relative-caret-position="972">
+          <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/glenn/crawler/neteasedriver/SortClickMainCrawler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="12" column="27" lean-forward="false" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/glenn/crawler/basedriver/BaseCrawler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="44" column="19" lean-forward="true" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/glenn/util/DateUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="99" column="25" lean-forward="false" selection-start-line="99" selection-start-column="25" selection-end-line="99" selection-end-column="25" />
+          <folding>
+            <element signature="e#1872#1873#0" expanded="false" />
+            <element signature="e#1917#1918#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/glenn/service/NewsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="35" lean-forward="false" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/glenn/entity/NewsEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="534">
+          <caret line="126" column="5" lean-forward="true" selection-start-line="126" selection-start-column="5" selection-end-line="126" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/glenn/action/NewsAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="34" lean-forward="false" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/glenn/crawler/basedriver/RawCrawler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="29" column="19" lean-forward="true" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GCrawler.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/gcrawler/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/gcrawler/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/artifacts/MavenWebDemo_war_exploded/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="42" lean-forward="true" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.m2/settings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/glenn/util/LogUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/glenn/action/NewsActionImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="22" column="58" lean-forward="false" selection-start-line="22" selection-start-column="58" selection-end-line="22" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/glenn/crawler/neteasedriver/CategoryCrawler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="119" column="28" lean-forward="true" selection-start-line="119" selection-start-column="28" selection-end-line="119" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/glenn/main/CrawlMainDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="42" lean-forward="false" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/glenn/crawler/neteasedriver/MainCrawler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="29" column="63" lean-forward="false" selection-start-line="29" selection-start-column="63" selection-end-line="29" selection-end-column="63" />
+        <state relative-caret-position="100">
+          <caret line="38" column="9" lean-forward="false" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#591#592#0" expanded="true" />
-            <element signature="e#636#637#0" expanded="true" />
-            <element signature="e#1861#1862#0" expanded="true" />
-            <element signature="e#1888#1889#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/glenn/crawler/neteasedriver/CategoryCrawler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#793#794#0" expanded="true" />
+            <element signature="e#826#827#0" expanded="true" />
+            <element signature="e#4311#4312#0" expanded="true" />
+            <element signature="e#4338#4339#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/glenn/util/WebDriverUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="123" column="59" lean-forward="false" selection-start-line="123" selection-start-column="59" selection-end-line="123" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#993#994#0" expanded="true" />
-            <element signature="e#1028#1029#0" expanded="true" />
-            <element signature="e#1060#1061#0" expanded="true" />
-            <element signature="e#1091#1092#0" expanded="true" />
-            <element signature="e#1127#1128#0" expanded="true" />
-            <element signature="e#1158#1159#0" expanded="true" />
-            <element signature="e#1606#1607#0" expanded="true" />
-            <element signature="e#1665#1666#0" expanded="true" />
-            <element signature="e#1700#1701#0" expanded="true" />
-            <element signature="e#1734#1735#0" expanded="true" />
-            <element signature="e#2763#2764#0" expanded="true" />
-            <element signature="e#2792#2793#0" expanded="true" />
-            <element signature="e#2819#2820#0" expanded="true" />
-            <element signature="e#2849#2850#0" expanded="true" />
-            <element signature="e#2913#2914#0" expanded="true" />
-            <element signature="e#2975#2976#0" expanded="true" />
-            <element signature="e#3091#3092#0" expanded="true" />
-            <element signature="e#3148#3149#0" expanded="true" />
-            <element signature="e#3210#3211#0" expanded="true" />
-            <element signature="e#3264#3265#0" expanded="true" />
-            <element signature="e#3319#3320#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="108">
+          <caret line="15" column="78" lean-forward="false" selection-start-line="15" selection-start-column="78" selection-end-line="15" selection-end-column="78" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/glenn/test/TestWebDriver.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/glenn/test/TestAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="34" column="33" lean-forward="false" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1846#2107#0" expanded="true" />
-            <element signature="e#2106#2107#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="336">
+          <caret line="35" column="39" lean-forward="false" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/glenn/test/TestService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="46" column="30" lean-forward="false" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="229" column="69" lean-forward="true" selection-start-line="229" selection-start-column="69" selection-end-line="229" selection-end-column="69" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1317,7 +1434,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>MavenWebDemo:war exploded</last-edited>
+          <last-edited>GCrawler:war exploded</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1342,6 +1459,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
+          <last-edited>localspark</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1365,11 +1483,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Web|MavenWebDemo</last-edited>
+          <last-edited>GCrawler</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -1377,6 +1496,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: antlr:antlr:2.7.6</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

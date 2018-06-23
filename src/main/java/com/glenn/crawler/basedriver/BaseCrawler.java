@@ -4,7 +4,6 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-import com.glenn.crawler.entity.BaseResult;
 import com.glenn.util.HttpUtil;
 import com.glenn.util.LogUtil;
 import org.jsoup.Jsoup;
@@ -36,8 +35,8 @@ public abstract class BaseCrawler {
                 ArrayList<String> contentUrls = getContentUrlFromSinglePage(html);
                 for (String contentUrl : contentUrls) {
                     Document contentHtml = getDocumentFromUrl(contentUrl, charset);
-                    BaseResult result = parseContentInfo(contentHtml);
-                    saveResult(result, saveRoot, entry.getKey(), pageIdx);
+//                    BaseResult result = parseContentInfo(contentHtml);
+//                    saveResult(result, saveRoot, entry.getKey(), pageIdx);
                 }
 
                 LogUtil.getInstance().printLog(entry.getKey() + " : " + pageIdx, LogUtil.LEVEL.INFO);
@@ -76,9 +75,9 @@ public abstract class BaseCrawler {
     public abstract String getPageUrl(Document html);
 
     public abstract ArrayList<String> getContentUrlFromSinglePage(Document html);
-
-    public abstract BaseResult parseContentInfo(Document html);
-
-    public abstract void saveResult(BaseResult result, String saveRoot, String categoryName, int pageIdx);
+//
+//    public abstract BaseResult parseContentInfo(Document html);
+//
+//    public abstract void saveResult(BaseResult result, String saveRoot, String categoryName, int pageIdx);
 
 }

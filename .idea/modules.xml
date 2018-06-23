@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/MavenWebDemo.iml" filepath="$PROJECT_DIR$/MavenWebDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GCrawler.iml" filepath="$PROJECT_DIR$/GCrawler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/glenn.gcrawler.iml" filepath="$PROJECT_DIR$/glenn.gcrawler.iml" />
     </modules>
   </component>
 </project>
